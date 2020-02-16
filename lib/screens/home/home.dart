@@ -33,52 +33,55 @@ class _HomeState extends State<Home> {
         title: Text("Home"),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Selector<DogBreedProvider, List>(
-              key: Key('screens_home_StreamBuilder'),
-              selector: (_, provider) =>
-                  [provider.data, provider.error, provider.getBreed],
-              builder: (_, data, __) => DogInfo(
-                data: data[0],
-                error: data[1],
-                retryFetchBreed: data[2],
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Selector<DogBreedProvider, List>(
+                key: Key('screens_home_StreamBuilder'),
+                selector: (_, provider) =>
+                    [provider.data, provider.error, provider.getBreed],
+                builder: (_, data, __) => DogInfo(
+                  data: data[0],
+                  error: data[1],
+                  retryFetchBreed: data[2],
+                ),
               ),
-            ),
-            SizedBox(height: 15),
-            Selector<UserLoginProvider, bool>(
-              selector: (_, provider) => provider.isLogin,
-              builder: (_, isLogin, __) {
-                if (isLogin) return Text('loged in');
-                return RaisedButton(
-                  color: Colors.blueAccent,
-                  child: Text(
-                    'Go to login example',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                  onPressed: () {
-                    Navigator.of(context).pushNamed(Login.routeName);
-                  },
-                );
-              },
-            ),
-            RaisedButton(
-              color: Colors.blueAccent,
-              child: Text(
-                'Go to protected route',
-                style: TextStyle(color: Colors.white),
+              SizedBox(height: 15),
+              Selector<UserLoginProvider, bool>(
+                selector: (_, provider) => provider.isLogin,
+                builder: (_, isLogin, __) {
+                  if (isLogin) return Text('loged in');
+                  return RaisedButton(
+                    color: Colors.blueAccent,
+                    child: Text(
+                      'Go to login example',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    onPressed: () {
+                      Navigator.of(context).pushNamed(Login.routeName);
+                    },
+                  );
+                },
               ),
-              onPressed: () {
-                Navigator.of(context).pushNamed(AuthProtectedScreen.routeName);
-              },
-            ),
-          ],
+              RaisedButton(
+                color: Colors.blueAccent,
+                child: Text(
+                  'Go to protected route',
+                  style: TextStyle(color: Colors.white),
+                ),
+                onPressed: () {
+                  Navigator.of(context)
+                      .pushNamed(AuthProtectedScreen.routeName);
+                },
+              ),
+            ],
+          ),
         ),
       ),
-      floatingActionButton: Selector<DogBreedProvider, bool>(
-        selector: (_, provider) => provider.loading,
-        builder: (_, loading, __) => ChangeButton(loading),
+      floatingActionButton: Selector<DogBreedProvider, List>(
+        selector: (_, provider) => [provider.loading, provider.getBreed],
+        builder: (_, data, __) => ChangeButton(data[0], data[1]),
       ),
     );
   }

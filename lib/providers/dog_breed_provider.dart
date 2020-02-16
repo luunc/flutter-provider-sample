@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:dxdart/core/errors/connection_error.dart';
+import 'package:dxdart/core/exceptions.dart';
 import 'package:flutter/cupertino.dart';
 
 import 'package:dxdart/core/provider/loading_error_provider.dart';
@@ -57,7 +57,7 @@ class DogBreedProvider extends LoadingErrorProvider {
       }
       notifyListeners();
     } catch (e) {
-      changeError(ConnectionError());
+      changeError(ConnectionException());
       changeLoading(false);
       notifyListeners();
     }

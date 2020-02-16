@@ -1,10 +1,9 @@
-import 'package:dxdart/core/errors/base_error.dart';
 import 'package:dxdart/models/dog_breed_model.dart';
 import 'package:flutter/material.dart';
 
 class DogInfo extends StatefulWidget {
   final DogBreed data;
-  final BaseError error;
+  final Exception error;
   final Function retryFetchBreed;
 
   const DogInfo(
@@ -26,7 +25,7 @@ class _DogInfoState extends State<DogInfo> {
         Scaffold.of(context).showSnackBar(
           SnackBar(
             behavior: SnackBarBehavior.floating,
-            content: Text(widget.error.message),
+            content: Text(widget.error.toString()),
             duration: Duration(days: 365),
             action: SnackBarAction(
               label: "Retry",

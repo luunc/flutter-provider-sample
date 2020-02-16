@@ -5,80 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fca48ebf-f18b-4039-a332-6a8e084d83b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/core/errors/base_error.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/errors/connection_error.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/errors/login_error.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/screens/login_protected_route.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/providers/user_login_provider.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/auth_protected_screen/auth_protected_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/login/login.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/login_success/login_success.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/screens/home/change_button_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/d_dio.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/d_dio.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/d_dio.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/d_dio.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/d_dio.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/d_dio.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/network_info.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/network_info.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/network_info.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/network_info.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/core/network/network_info.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/core/network/network_info.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/injection.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/injection.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/injection.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/injection.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/injection.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/injection.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.g.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.g.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.g.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.g.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.g.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/dog_breed_model.g.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/models/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/another_screen.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/another_screen.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/another_screen.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/another_screen.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/another_screen.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/another_screen.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/dog_info_circle/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/another_screen/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/dog_info.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/dog_info.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/dog_info.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/dog_info.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/dog_info.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/dog_info.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/dog_info/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/home.dart.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/home.dart.func-sort-c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/home.dart.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/home.dart.func.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/home.dart.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/home.dart.gcov.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/index-sort-f.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/index-sort-l.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/html/lib/screens/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/html/lib/screens/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/blocs/dog_breed_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/dog_breed_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/injection.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/injection.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/another_screen/another_screen.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/another_screen/dog_info_circle/dog_info_circle.dart" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/exceptions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/225558440bfe24b2ee40019835ad682a/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/29a469b9b794c6e960813e45c1a2207c/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Assets.car" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Assets.car" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/objects-13.0+.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib/runtime.nib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/snapshot_blob.bin.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/testfile.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/testfile.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/errors/base_error.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/errors/connection_error.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/errors/login_error.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/providers/dog_breed_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/dog_breed_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/providers/user_login_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/providers/user_login_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/home/dog_info/dog_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/dog_info/dog_info.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/home/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home/home.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/blocs/dog_breed_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/dog_breed_bloc_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/login/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/providers/dog_breed_bloc_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/providers/dog_breed_provider_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/screens/home/change_button_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/screens/home/change_button_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/screens/make_testable_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/screens/make_testable_widget.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="267">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -105,37 +86,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/screens/auth_protected_screen/auth_protected_screen.dart">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="227">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/core/screens/login_protected_route.dart">
+        <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/floating_action_button.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="169">
+              <caret line="276" column="16" selection-start-line="276" selection-start-column="8" selection-end-line="276" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/providers/user_login_provider.dart">
+        <entry file="file://$PROJECT_DIR$/test/screens/home/change_button_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="175">
+              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/screens/home/home.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+            <state relative-caret-position="254">
+              <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -153,35 +128,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/home/dog_info/dog_info.dart">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/providers/dog_breed_provider_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="22" selection-start-line="22" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="427">
+              <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/screens/login/login.dart">
+        <entry file="file://$PROJECT_DIR$/test/screens/home/home_test.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+            <state relative-caret-position="247">
+              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/core/errors/connection_error.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -209,6 +175,8 @@
       <find>CircularProgressIndicator</find>
       <find>retryFetchBreed</find>
       <find>print</find>
+      <find>loading</find>
+      <find>Selector&lt;UserLoginProvider, bool&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -219,41 +187,45 @@
       <list>
         <option value="$PROJECT_DIR$/lib/screens/another_screen/another_screen.dart" />
         <option value="$PROJECT_DIR$/test/blocs/dog_breed_bloc_test.dart" />
-        <option value="$PROJECT_DIR$/test/screens/make_testable_widget.dart" />
         <option value="$PROJECT_DIR$/coverage/html/index.html" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart" />
         <option value="$PROJECT_DIR$/test/screens/home/home_test.dart" />
-        <option value="$PROJECT_DIR$/test/screens/home/change_button_test.dart" />
         <option value="$PROJECT_DIR$/lib/core/errors/base_error.dart" />
-        <option value="$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart" />
         <option value="$PROJECT_DIR$/lib/core/errors/connection_error.dart" />
-        <option value="$PROJECT_DIR$/lib/providers/dog_breed_provider.dart" />
         <option value="$PROJECT_DIR$/lib/injection.dart" />
         <option value="$PROJECT_DIR$/lib/screens/login_success/login_success.dart" />
         <option value="$PROJECT_DIR$/lib/core/screens/login_protected_route.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/home/dog_info/dog_info.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/home/home.dart" />
         <option value="$PROJECT_DIR$/lib/core/errors/login_error.dart" />
-        <option value="$PROJECT_DIR$/lib/screens/login/login.dart" />
-        <option value="$PROJECT_DIR$/lib/providers/user_login_provider.dart" />
         <option value="$PROJECT_DIR$/lib/screens/auth_protected_screen/auth_protected_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/core/exceptions.dart" />
+        <option value="$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart" />
+        <option value="$PROJECT_DIR$/lib/providers/dog_breed_provider.dart" />
+        <option value="$PROJECT_DIR$/lib/providers/user_login_provider.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/home/dog_info/dog_info.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/login/login.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart" />
+        <option value="$PROJECT_DIR$/test/test_tool.dart" />
+        <option value="$PROJECT_DIR$/test/test_tool/mock_function.dart" />
+        <option value="$PROJECT_DIR$/test/screens/home/change_button_test.dart" />
+        <option value="$PROJECT_DIR$/test/screens/make_testable_widget.dart" />
+        <option value="$PROJECT_DIR$/lib/screens/home/home.dart" />
+        <option value="$PROJECT_DIR$/test/providers/dog_breed_provider_test.dart" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
-    <option name="y" value="49" />
+    <option name="x" value="430" />
+    <option name="y" value="38" />
     <option name="width" value="1344" />
-    <option name="height" value="979" />
+    <option name="height" value="1016" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,38 +249,30 @@
               <item name="flutter-sample-project provider+code_generater" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="errors" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter-sample-project provider+code_generater" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter-sample-project provider+code_generater" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter-sample-project provider+code_generater" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter-sample-project provider+code_generater" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flutter-sample-project provider+code_generater" type="b2602c69:ProjectViewProjectNode" />
               <item name="flutter-sample-project provider+code_generater" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flutter-sample-project provider+code_generater" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flutter-sample-project provider+code_generater" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="auth_protected_screen" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -317,8 +281,13 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Material File Colors" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/test_tool" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -333,11 +302,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Flutter.main.dart">
-    <configuration name="change_button_test.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/test/screens/home/change_button_test.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
@@ -360,13 +324,17 @@
       <option name="testFile" value="$PROJECT_DIR$/test/screens/home/dog_info/dog_info_test.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="tests in home_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/test/screens/home/home_test.dart" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter Test.tests in home_test.dart" />
         <item itemvalue="Flutter Test.#2 testing ChangeButton when loading is true" />
         <item itemvalue="Flutter Test.#1 testing ChangeButton when loading is false" />
         <item itemvalue="Flutter Test.tests in dog_info_test.dart" />
         <item itemvalue="Flutter Test.tests in change_button_test.dart" />
-        <item itemvalue="Dart Command Line App.change_button_test.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -384,27 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 18h 15m 40s.xml">
-      <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
-    </history-entry>
-    <history-entry file="#1_testing_ChangeButton_when_loading_is_false - 2020.02.14 at 18h 22m 35s.xml">
-      <configuration name="#1 testing ChangeButton when loading is false" configurationId="FlutterTestConfigType" />
-    </history-entry>
-    <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 18h 22m 40s.xml">
-      <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
-    </history-entry>
-    <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 18h 23m 01s.xml">
-      <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
-    </history-entry>
-    <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 18h 30m 53s.xml">
-      <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
-    </history-entry>
-    <history-entry file="#1_testing_ChangeButton_when_loading_is_false - 2020.02.14 at 18h 30m 58s.xml">
-      <configuration name="#1 testing ChangeButton when loading is false" configurationId="FlutterTestConfigType" />
-    </history-entry>
-    <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 18h 31m 36s.xml">
-      <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
-    </history-entry>
     <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 18h 31m 48s.xml">
       <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
     </history-entry>
@@ -413,6 +360,27 @@
     </history-entry>
     <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.14 at 20h 48m 32s.xml">
       <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="#1_testing_ChangeButton_when_loading_is_false - 2020.02.16 at 14h 42m 28s.xml">
+      <configuration name="#1 testing ChangeButton when loading is false" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="#1_testing_ChangeButton_when_loading_is_false - 2020.02.16 at 15h 04m 18s.xml">
+      <configuration name="#1 testing ChangeButton when loading is false" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="#1_testing_ChangeButton_when_loading_is_false - 2020.02.16 at 15h 04m 34s.xml">
+      <configuration name="#1 testing ChangeButton when loading is false" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="#2_testing_ChangeButton_when_loading_is_true - 2020.02.16 at 15h 05m 07s.xml">
+      <configuration name="#2 testing ChangeButton when loading is true" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="tests_in_home_test_dart - 2020.02.16 at 15h 06m 50s.xml">
+      <configuration name="tests in home_test.dart" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="tests_in_home_test_dart - 2020.02.16 at 15h 11m 24s.xml">
+      <configuration name="tests in home_test.dart" configurationId="FlutterTestConfigType" />
+    </history-entry>
+    <history-entry file="tests_in_home_test_dart - 2020.02.16 at 15h 12m 35s.xml">
+      <configuration name="tests in home_test.dart" configurationId="FlutterTestConfigType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -425,12 +393,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="431" y="42" width="1344" height="979" extended-state="0" />
+    <frame x="430" y="38" width="1344" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23041475" />
-      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4985507" visible="true" weight="0.23963134" />
+      <window_info id="Structure" order="2" sideWeight="0.5014493" side_tool="true" weight="0.23963134" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Resources Explorer" order="5" />
@@ -438,10 +406,10 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32951945" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.35361654" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.41629955" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="4" weight="0.32951945" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.48105624" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.39867842" />
       <window_info anchor="bottom" id="Debug" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.23068309" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3283582" />
@@ -479,16 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/providers/dog_breed_bloc_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,40 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/screens/make_testable_widget.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/flutter/packages/flutter_test/lib/src/finders.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="145" column="9" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/screens/home/change_button_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/screens/home/home_test.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,67 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/injection.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/providers/dog_breed_provider.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/login_success/login_success.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/errors/login_error.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -679,10 +550,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/errors/connection_error.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/errors/login_error.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/exceptions.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/network/d_dio.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/auth_protected_screen/auth_protected_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/screens/login_protected_route.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/providers/user_login_provider.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/home/dog_info/dog_info.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="22" selection-start-line="22" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="-103">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
@@ -691,57 +623,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/login/login.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/screens/login_protected_route.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="2016">
+          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/errors/connection_error.dart">
+    <entry file="file://$PROJECT_DIR$/lib/providers/dog_breed_provider.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-end-line="5" />
+        <state relative-caret-position="590">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/providers/user_login_provider.dart">
+    <entry file="file://$PROJECT_DIR$/lib/core/provider/loading_error_provider.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="252">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/screens/home/change_button/change_button.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/packages/flutter/lib/src/material/floating_action_button.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="276" column="16" selection-start-line="276" selection-start-column="8" selection-end-line="276" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib/ui/window.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_tool/mock_function.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flutter/bin/cache/pkg/sky_engine/lib/core/function.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/screens/home/change_button_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/injection.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/screens/make_testable_widget.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/screens/home/home_test.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/screens/home/home.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state relative-caret-position="254">
+          <caret line="43" column="50" lean-forward="true" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/screens/auth_protected_screen/auth_protected_screen.dart">
+    <entry file="file://$PROJECT_DIR$/test/providers/dog_breed_provider_test.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="427">
+          <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>

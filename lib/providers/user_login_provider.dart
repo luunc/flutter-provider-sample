@@ -1,4 +1,4 @@
-import 'package:dxdart/core/errors/login_error.dart';
+import 'package:dxdart/core/exceptions.dart';
 import 'package:dxdart/core/provider/loading_error_provider.dart';
 
 class UserLoginProvider extends LoadingErrorProvider {
@@ -21,7 +21,7 @@ class UserLoginProvider extends LoadingErrorProvider {
     notifyListeners();
     await Future.delayed(Duration(seconds: 2));
     changeLoading(false);
-    changeError(LoginError());
+    changeError(LoginException());
     notifyListeners();
   }
 

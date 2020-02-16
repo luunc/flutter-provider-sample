@@ -1,4 +1,3 @@
-import 'package:dxdart/core/errors/base_error.dart';
 import 'package:dxdart/providers/user_login_provider.dart';
 import 'package:dxdart/screens/login_success/login_success.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +15,8 @@ class Login extends StatelessWidget {
         provider.isLogin,
         provider.loginSuccess,
         provider.loginFailed,
-        provider.error
+        provider.error,
+        provider.loading
       ],
       builder: (_, data, __) =>
           LoginProvider(data[0], data[1], data[2], data[3]),
@@ -28,7 +28,7 @@ class LoginProvider extends StatefulWidget {
   final bool isLogin;
   final Function loginSuccess;
   final Function loginFail;
-  final BaseError error;
+  final Exception error;
 
   const LoginProvider(
     this.isLogin,
@@ -89,9 +89,15 @@ class _LoginProviderState extends State<LoginProvider> {
                 ),
               ],
             ),
+            Selector<UserLoginProvider, bool>(
+              selector: (_, provider) => provider.loading,
+              builder: (_, data, loadingWidget) =>
+                  data ? loadingWidget : Container(),
+              child: CircularProgressIndicator(),
+            ),
             if (widget.error != null)
               Text(
-                widget.error.message,
+                widget.error.toString(),
                 style: TextStyle(color: Colors.redAccent),
               ),
           ],
